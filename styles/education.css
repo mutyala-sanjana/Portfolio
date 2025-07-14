@@ -1,0 +1,31 @@
+.education-section {
+  background-color: #fafafa; 
+}
+.edu-card {
+  background-color: white;
+  border-left: 4px solid  #ff007f;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.edu-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.edu-card h4 {
+  color: #333;
+}
+
+.edu-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  text-align: left;
+}
